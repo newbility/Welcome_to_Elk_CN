@@ -1,0 +1,6 @@
+# This repository publishes the patch and documentation only.
+test-game/
+test-user-data/
+extracted/
+logs/
+.work/

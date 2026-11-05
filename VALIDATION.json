@@ -1,0 +1,98 @@
+{
+  "preview": false,
+  "translation_entries": 6429,
+  "translation_batches": 70,
+  "stage": "reviewed",
+  "automated_resource_reopen": true,
+  "font_probe": "menu and 52-character Chinese diagnostic rendered; no missing glyphs in probe",
+  "runtime_scope": "Main menu, options, language selector, control labels, new-game opening snapshots; every reviewed Chinese character added to dynamic font atlas. Full story playthrough not completed.",
+  "protected_user_state": "4 files and registry keys unchanged after font probe",
+  "install_restore": "passed on project-local fixture: install, verify, idempotency, restore, unknown file refusal, corrupted payload refusal, fresh-ZIP restore refusal",
+  "toolkit_dependency": false,
+  "resource_validation": {
+    "result": "passed",
+    "partial": false,
+    "entries": 6429,
+    "counts": {
+      "csv_entries_verified": 6227,
+      "english_only_assets_verified": 5,
+      "subtitle_entries_verified": 102,
+      "ui_targets_verified": 143,
+      "untouched_objects_verified": 17623
+    },
+    "unique_chinese_characters": 1749,
+    "missing_chinese_glyphs": [],
+    "reviewed_models": [
+      "gpt-6.1-sol/high"
+    ],
+    "draft_models": [
+      "gpt-6-luna/max"
+    ],
+    "full_story_runtime_coverage": false
+  },
+  "runtime_validation": {
+    "run_id": "final-dialogue-20261106-r4",
+    "result": "passed",
+    "scope": [
+      "main menu",
+      "options",
+      "language selector",
+      "control remapping labels",
+      "new-game audio intro subtitles and recorded opening snapshots",
+      "font atlas generation for every Chinese character in reviewed corpus",
+      "opening dialogue input and visible tutorial labels exercised by test driver"
+    ],
+    "unique_chinese_characters_tested": 1749,
+    "screenshots": [
+      {
+        "path": "screenshots/final-dialogue-20261106-r4-01-menu-preview.png",
+        "sha256": "bfd56801f8f6c4fd9926c50ff8c162dc35d16b07cdd94e6b28de77fcc391c944"
+      },
+      {
+        "path": "screenshots/final-dialogue-20261106-r4-04-options.png",
+        "sha256": "ef3517b68d6af8edd76ec30948ff49b36c8c16fd17294693296d51b971dfa96f"
+      },
+      {
+        "path": "screenshots/final-dialogue-20261106-r4-05-languages.png",
+        "sha256": "ffe6b4d5d117ede91d6cc5bb448bd0a61dd1bf09ed4c513d3f96ca8a3bec662b"
+      },
+      {
+        "path": "screenshots/final-dialogue-20261106-r4-06-controls.png",
+        "sha256": "8533b3c4b50c604bac18e65fdda8935dd14e3bc1c63669abf952d0ec7b061ad0"
+      },
+      {
+        "path": "screenshots/final-dialogue-20261106-r4-07-new-game.png",
+        "sha256": "108d65c5a7b37608019baab5013db0eb8661718bbb59398592d18484d3eb4541"
+      },
+      {
+        "path": "screenshots/final-dialogue-20261106-r4-08-opening.png",
+        "sha256": "69cbd0c42f1dda3be381de8d5f817139ca5fe6e265efe52d47b75388d79a64aa"
+      },
+      {
+        "path": "screenshots/final-dialogue-20261106-r4-09-opening-later.png",
+        "sha256": "77525203a574eb0a68059f087b1a254248e42789986c6427fc15fb80a687e7c8"
+      },
+      {
+        "path": "screenshots/final-dialogue-20261106-r4-10-opening-dialogue.png",
+        "sha256": "a874d7a02458ccde645d715e538567bcc29b46da1096c7cb88f82b52b95144bb"
+      }
+    ],
+    "engine_log": {
+      "path": "logs/unity-final-dialogue-20261106-r4.log",
+      "sha256": "9dde76dcfdadb6e08263cf7ee54a1de6e432f9ad9e130737cdddb9e257263768"
+    },
+    "known_baseline_exceptions": [
+      "NullReferenceException: Object reference not set to an instance of an object\n  at MissionDebugDisplay.Awake () [0x00000] in <3df4013c9af740e58a2fe2fcf9f6847c>:0 "
+    ],
+    "unexpected_exceptions": [],
+    "full_story_playthrough": false,
+    "synthetic_font_probe": true
+  },
+  "install_restore_checks": 13,
+  "full_story_playthrough": false,
+  "publication_type": "public_test_candidate",
+  "ready_for_final_publication": false,
+  "translation_license": "CC BY-NC-SA 4.0",
+  "copyright_notice": "免责声明.txt",
+  "repository": "https://github.com/newbility/Welcome_to_Elk_CN"
+}
